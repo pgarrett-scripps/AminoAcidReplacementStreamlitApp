@@ -148,9 +148,8 @@ replacements = replacement_tree[mass_shift]
 
 st.header("Results", divider=True)
 
-st.subheader("Insertions")
+st.subheader("Insertions/Deletions")
 if insertions:
-    st.write("Possible insertions:")
 
     # Create a table format for insertions
     ins_data = []
